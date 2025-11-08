@@ -1,0 +1,7 @@
+salario = float(input("Digite o valor do salário: "))
+conta1 = float(input("Digite o valor da primeira conta: "))
+conta2 = float(input("Digite o valor da segunda conta: "))
+calcConta1 = conta1 + (conta1 * 2 / 100)
+calcConta2 = conta2 + (conta2 * 2 / 100)
+calcSalario = salario - (calcConta1 + calcConta2)
+print(f"Vai pagar R${calcSalario:.2f}")

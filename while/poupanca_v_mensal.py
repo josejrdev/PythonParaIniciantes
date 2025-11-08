@@ -1,0 +1,11 @@
+cont = 1
+depositoInicial = float(input("Digite o deposito inicial: "))
+taxaJuros = float(input("Digite a taxa de juros: "))
+valor = depositoInicial
+while cont <= 24:
+    depositoMensal = float(input("Digite o deposito mensal: "))
+    valor = valor + depositoMensal
+    valor = valor + (valor * taxaJuros / 100)
+    print(f"valor do mês {cont} = R${valor:.2f}")
+    cont = cont + 1
+print(f"valor final = R${valor:.2f}")
