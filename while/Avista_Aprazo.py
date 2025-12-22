@@ -2,7 +2,6 @@ cont = 1
 valorTotalAVista = 0.0
 valorTotalAPrazo = 0.0
 valorTotalCompras = 0.0
-valorPrestacao1APrazo = 0.0
 while cont <= 15:
   codigoTransacao = int(input("Digite o código da transação(0 à vista, 1 a prazo): "))
   valorTransacao = float(input("Digite o valor da transação: R$"))

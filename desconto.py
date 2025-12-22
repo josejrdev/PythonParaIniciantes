@@ -1,4 +1,4 @@
-# Programa que calcula o Desconto
+# Programa que calcula Desconto
 # Preço inicial
 PrecoInicial = float(input("Qual é o preço do produto? "))
 # Porcentagem do desconto

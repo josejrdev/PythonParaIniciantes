@@ -17,7 +17,7 @@ while cont <= 10:
   cont = cont + 1
 mediaIdade = somaIdades / 10
 if qtdAlturaMaior190 != 0:
-  percentagemPessoasIdade10e30 = qtdIdadeMaior10Menor30 / qtdAlturaMaior190 * 100
+  percentagemPessoasIdade10e30 = qtdIdadeMaior10Menor30 / qtdAlturaMaior190
 else:
   percentagemPessoasIdade10e30 = 0
 print(f"A média de idade: {mediaIdade:.2f}")

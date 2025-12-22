@@ -9,7 +9,7 @@ while cont <= 25:
     peso = float(input("Digite o peso da pessoa: "))
     if idade > 50:
         pessoasMais50 = pessoasMais50 + 1
-    elif idade > 10 and idade < 20:
+    elif idade >= 10 and idade <= 20:
         somaAlturas = somaAlturas + altura
         qtdPessoasEntre10e20 = qtdPessoasEntre10e20 + 1
     if peso < 40:
