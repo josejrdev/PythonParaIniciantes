@@ -1,13 +1,13 @@
-def bubble_sort_otimizado(l):
-    n = len(l)
+def bubble_sort_otimizado(lista):
+    n = len(lista)
     for i in range(n):
         trocou = False
-        for j in range(0, n - 1 - i): # Últimos i elementos já estão ordenados, não precisam ser comparados
-            if l[j] > l[j+1]:
-                l[j], l[j+1] = l[j+1], l[j]
+        for j in range(n - 1 - i):
+            if lista[j] > lista[j+1]:
+                lista[j], lista[j+1] = lista[j+1], lista[j]
                 trocou = True
         if trocou == False:
-            break
-lista = [0,1,2,3,6,8]
-bubble_sort_otimizado(lista)
-print(lista)
+            return lista
+    return lista
+lista = [100,5,1,80,1,38,2,5,19,100,10,6]
+print(bubble_sort_otimizado(lista))
