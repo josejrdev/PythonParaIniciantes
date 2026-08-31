@@ -1,3 +1,9 @@
+"""
+Algoritmo que lê uma quantidade definida de números inteiros, armazena
+esses números em uma lista e percorre a lista para identificar e exibir
+apenas os números que são pares, informando também a posição de cada um.
+"""
+
 cont = 0
 lista_numeros = []
 qtd_numeros = int(input("Quantidade de números: "))

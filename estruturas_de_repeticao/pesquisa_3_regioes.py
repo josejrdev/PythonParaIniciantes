@@ -1,3 +1,11 @@
+"""
+Algoritmo que lê a região, a idade e o salário de várias pessoas até que
+uma idade negativa seja informada. O programa calcula a média salarial,
+a maior e a menor idade de cada região (Palmares, Caruaru e Recife),
+a quantidade de pessoas com até 25 anos e salário acima de R$ 200,00,
+além de identificar a idade e a região da pessoa com o maior salário.
+"""
+
 somaSalariosPalmares = 0
 somaSalariosCaruaru = 0
 somaSalariosRecife = 0

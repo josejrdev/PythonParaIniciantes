@@ -1,3 +1,11 @@
+"""
+Algoritmo que calcula o tempo necessário para quitar uma dívida, considerando
+o valor inicial da dívida, a taxa de juros mensal e o valor pago mensalmente.
+O programa calcula os juros de cada mês, atualiza o saldo da dívida e acumula
+o total de juros pagos até que a dívida seja quitada. Ao final, exibe a
+quantidade de meses, o total de juros e o valor total pago.
+"""
+
 valorDivida = float(input("Digite o valor inicial da divida: "))
 taxaJuros = float(input("Digite o valor da taxa de juros: "))
 valorMensalPago = float(input("Digite o valor pago mensalmeente: "))

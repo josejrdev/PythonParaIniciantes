@@ -1,3 +1,10 @@
+"""
+Algoritmo que calcula o valor total de uma compra com base no código
+e na quantidade de cada produto informada pelo usuário. O programa
+continua recebendo produtos até que o código 0 seja informado e, ao
+final, exibe o valor total da compra.
+"""
+
 valorFinal = 0
 calc = 0
 while True:

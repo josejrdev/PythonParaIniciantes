@@ -1,6 +1,14 @@
+"""
+Algoritmo que lê a idade e a altura de várias pessoas até que uma idade
+menor ou igual a zero seja informada. O programa calcula a média das
+alturas das pessoas com idade superior a 50 anos e, ao final, exibe
+o resultado.
+"""
+
 gerenciador = 1
 somaAlturasIdadeMaior50 = 0.0
 qtdPessoasAlturaMaior50 = 0
+
 while gerenciador == 1:
   idade = int(input("Digite a idade da pessoa: "))
   if idade <= 0:

@@ -1,8 +1,16 @@
+"""
+Algoritmo que lê a idade, a altura e o peso de 25 pessoas, calcula a
+quantidade de pessoas com idade superior a 50 anos, a média das alturas
+das pessoas com idade entre 10 e 20 anos e a porcentagem de pessoas
+com peso inferior a 40 kg.
+"""
+
 cont = 1
 pessoasMais50 = 0
 somaAlturas = 0.0
 qtdPessoasPesoMenor40 = 0
 qtdPessoasEntre10e20 = 0
+
 while cont <= 25:
     idade = int(input("Digite a idade da pessoa: "))
     altura = float(input("Digite a altura da pessoa: "))

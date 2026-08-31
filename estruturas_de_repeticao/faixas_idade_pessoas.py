@@ -1,9 +1,17 @@
+"""
+Algoritmo que lê a idade de 15 pessoas, classifica cada pessoa em uma
+das cinco faixas etárias definidas e contabiliza a quantidade de pessoas
+em cada faixa. Ao final, calcula e exibe a porcentagem de pessoas que
+pertencem à primeira ou à última faixa etária.
+"""
+
 cont = 1
 soma15 = 0
 soma16a30 = 0
 soma31a45 = 0
 soma46a60 = 0
 somaAcima60 = 0
+
 while cont <= 15:
   idade = int(input("Digite a idade da pessoa: "))
   if idade <= 15:
@@ -18,6 +26,7 @@ while cont <= 15:
     somaAcima60 = somaAcima60 + 1
   cont = cont + 1
 perPessoasFaixa1e5 = (soma15 + somaAcima60) / 15
+
 print(f"Até 15 anos: {soma15} pessoas")
 print(f"De 16 a 30 anos: {soma16a30} pessoas")
 print(f"De 31 a 45 anos: {soma31a45} pessoas")

@@ -1,6 +1,15 @@
+"""
+Algoritmo que calcula a quantidade de cédulas necessárias para representar
+um valor a pagar, utilizando cédulas de 100, 50, 20, 10, 5 e 1 reais.
+O programa utiliza a maior cédula possível a cada etapa, subtraindo seu
+valor do total a pagar até que não seja mais possível utilizá-la. Ao final
+de cada etapa, exibe a quantidade de cédulas utilizadas de cada valor.
+"""
+
 valorAPagar = float(input("Digite o valor a pagar: "))
 cedulas = 0
 atual = 100
+
 while True:
     if atual <= valorAPagar:
         valorAPagar = valorAPagar - atual

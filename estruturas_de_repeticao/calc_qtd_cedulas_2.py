@@ -1,6 +1,16 @@
+"""
+Algoritmo que calcula a quantidade de cédulas e moedas necessárias para
+representar um valor a pagar, utilizando valores de R$ 100,00 até
+R$ 0,01. O programa utiliza a maior cédula ou moeda possível em cada
+etapa, subtraindo seu valor do total a pagar e contabilizando quantas
+unidades foram utilizadas. Ao final de cada etapa, exibe a quantidade
+de cédulas ou moedas de cada valor utilizado.
+"""
+
 valorAPagar = float(input("Digite o valor a pagar: "))
 cedulas = 0
 atual = 100
+
 while True:
     # margem pequena para evitar erros com floats
     if atual <= valorAPagar + 0.001:

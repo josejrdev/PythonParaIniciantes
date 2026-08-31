@@ -1,8 +1,16 @@
+"""
+Algoritmo que lê a idade, o peso e a altura de 10 pessoas, calcula a média
+das idades, contabiliza as pessoas com peso superior a 90 kg e altura
+inferior a 1,50 m e calcula a porcentagem de pessoas com idade entre
+10 e 30 anos entre aquelas que possuem altura superior a 1,90 m.
+"""
+
 cont = 1
 somaIdades = 0
 qtdPesoMaior90AlturaMenor150 = 0
 qtdAlturaMaior190 = 0
 qtdIdadeMaior10Menor30 = 0
+
 while cont <= 10:
   idade = float(input("Digite a idade da pessoa: "))
   peso = float(input("Digite o peso da pessoa: "))
@@ -20,6 +28,7 @@ if qtdAlturaMaior190 != 0:
   percentagemPessoasIdade10e30 = qtdIdadeMaior10Menor30 / qtdAlturaMaior190
 else:
   percentagemPessoasIdade10e30 = 0
+
 print(f"A média de idade: {mediaIdade:.2f}")
 print(f"Quantidade de pessoas com peso superior a 90 quilos e altura inferior a 1,50: {qtdPesoMaior90AlturaMenor150}")
 print(f"Percentagem de pessoas com idade entre 10 e 30 anos entre pessoas que medem mais de 1,90 metro: {percentagemPessoasIdade10e30:.1f}%")

@@ -1,14 +1,11 @@
+# Algoritmo com loop para decidir qual o maior número
+
 cont = 1
-lista_numeros = []
-while cont <= 10:
-    numero = int(input(f"Digite o {cont}° número: "))
-    lista_numeros.append(numero)
-    cont = cont + 1
-maior_numero = lista_numeros[0]
-menor_numero = lista_numeros[0]
-for numero in lista_numeros:
-    if numero > maior_numero:
-        maior_numero = numero
-    if numero < menor_numero:
-        menor_numero = numero
-print(maior_numero, menor_numero)
+maiorNumero = -5
+
+while cont <= 3:
+  numero = int(input("Digite um número: "))
+  if numero > maiorNumero:
+     maiorNumero = numero
+  cont = cont + 1
+print(maiorNumero)

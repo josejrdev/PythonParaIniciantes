@@ -1,7 +1,15 @@
+"""
+Algoritmo que lê o código e o valor de 15 transações, calcula os valores
+totais das compras à vista, a prazo e o valor total de todas as compras.
+Também calcula o valor da primeira prestação das compras realizadas a prazo,
+considerando o pagamento em 3 prestações iguais.
+"""
+
 cont = 1
 valorTotalAVista = 0.0
 valorTotalAPrazo = 0.0
 valorTotalCompras = 0.0
+
 while cont <= 15:
   codigoTransacao = int(input("Digite o código da transação(0 à vista, 1 a prazo): "))
   valorTransacao = float(input("Digite o valor da transação: R$"))
@@ -12,6 +20,7 @@ while cont <= 15:
   valorTotalCompras = valorTotalCompras + valorTransacao
   cont = cont + 1
 valorPrestacao1APrazo = valorTotalAPrazo / 3
+
 print(f"Valor total de compras a vista: R${valorTotalAVista:.2f}")
 print(f"Valor total de compras a prazo: R${valorTotalAPrazo:.2f}")
 print(f"Valor total das compras efetuadas: R${valorTotalCompras:.2f}")
