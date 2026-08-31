@@ -1,3 +1,5 @@
+# Algoritmo de rastreamento de divida
+
 divida = 0 # 0
 compra = 100 # 100
 divida = divida + compra # era 0, recebeu 100

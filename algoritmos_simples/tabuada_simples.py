@@ -1,3 +1,5 @@
+# Algorimo que gera uma tabuada utlizando váriaveis e a função print
+
 numero = int(input("Digite um número: "))
 tabAd1 = numero + 1
 tabAd2 = numero + 2

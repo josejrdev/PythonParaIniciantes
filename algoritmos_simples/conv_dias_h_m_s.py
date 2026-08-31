@@ -8,4 +8,5 @@ segundos = int(input("Digite a quantidade de segundos: "))
 # Conversão
 totalSegundos = (dias * 24 * 60 * 60) + (horas * 60 * 60) + (minutos * 60) + segundos
 
+# Exibe o resultado
 print(f"O total em segundos é: {totalSegundos}")

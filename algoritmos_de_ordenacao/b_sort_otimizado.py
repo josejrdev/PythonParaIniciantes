@@ -9,5 +9,3 @@ def bubble_sort_otimizado(lista):
         if trocou == False:
             return lista
     return lista
-lista = [100,5,1,80,1,38,2,5,19,100,10,6]
-print(bubble_sort_otimizado(lista))

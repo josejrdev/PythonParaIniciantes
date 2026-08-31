@@ -1,4 +1,4 @@
-# Programa que converte temperatura em Celsius para Fahrenheit e Kelvin
+# Programa que converte temperatura de Celsius para Fahrenheit e Kelvin
 
 # Coletando tempo em Celsius
 TempC = float(input("Celsius: "))

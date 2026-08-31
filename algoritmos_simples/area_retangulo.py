@@ -1,4 +1,9 @@
-base_retangulo = float(input("Digite a base do retangulo: "))
-altura_retangulo = float(input("Digite a altura do retangulo: "))
-area_retangulo = base_retangulo * altura_retangulo
-print(area_retangulo)
+# Algoritmo para calcular a área de um retangulo
+
+base_retangulo = float(input("Digite a base do retangulo: ")) # Pedindo a base
+
+altura_retangulo = float(input("Digite a altura do retangulo: ")) # Pedindo a altura
+
+area_retangulo = base_retangulo * altura_retangulo # Calculando
+
+print(area_retangulo) # Exibindo o resultado na saída
