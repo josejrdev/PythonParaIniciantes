@@ -1,4 +1,9 @@
+# Algoritmo que calcula imposto de renda
+
+# Coleta o valor pago do usuário
 valorPago = float(input("Digite o valor pago: "))
+
+# estrutura de if / elif / else que calcula o imposto de renda
 if valorPago <= 1000:
     print("Sem imposto")
 elif valorPago > 1000 and valorPago <= 3000:

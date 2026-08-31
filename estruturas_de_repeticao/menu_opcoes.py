@@ -1,3 +1,5 @@
+# Algoritmo que exibe um menu de opções para o usuário decidir o que fazer
+
 while True:
     print("Menu " + "-" * 51)
     print("Digite 1 para exibir o número cinco, dez vezes.")

@@ -1,3 +1,5 @@
+# Algoritmo de calculadora simples, nível iniciante.
+
 n1 = int(input("Digite o primeiro número: "))
 n2 = int(input("Digite o segundo número: "))
 operacao = input("Digite a operação que deseja realizar: ")

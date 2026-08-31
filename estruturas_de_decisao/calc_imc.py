@@ -1,6 +1,13 @@
+# Algoritmo de calculo de imc que também informa a classificação
+
+# Coleta os dados do usuário
 peso_usuario = float(input("Digite o peso atual em quilos: "))
 altura_usuario = float(input("Digite a altura atual em metros: "))
+
+# Realiza o calculo
 calc_imc = peso_usuario / altura_usuario ** 2
+
+# estrutura de if / elif / else que informa a classificação
 if calc_imc >= 40:
     print("Obesidade grau 3.")
 elif calc_imc >= 35:

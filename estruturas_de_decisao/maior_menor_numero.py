@@ -1,6 +1,12 @@
+"""
+Algoritmo que informa qual o maior e qual o menor número
+entre 3 números escolhidos pelo usuário.
+"""
+
 n1 = int(input("Digite o primeiro número: "))
 n2 = int(input("Digite o segundo número: "))
 n3 = int(input("Digite o terceiro número: "))
+
 if n1 >= n2 and n1 >= n3:
     print(f"{n1} é o maior")
 elif n2 >= n1 and n2 >= n3:

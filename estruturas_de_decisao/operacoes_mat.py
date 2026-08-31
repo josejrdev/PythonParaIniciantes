@@ -1,6 +1,12 @@
+"""
+Algoritmo que realiza operações matemáticas com dois números de acordo 
+com a escolha de operação escolhida pelo usuário.
+"""
+
 n1 = int(input("Digite o primeiro número: "))
 n2 = int(input("Digite o segundo número: "))
 escolha = int(input("Qual a sua escolha? "))
+
 if escolha == 1:
   media = n1 + n2 / 2
   print(f"Média: {media:.2f}")

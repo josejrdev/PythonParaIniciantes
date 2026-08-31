@@ -1,3 +1,8 @@
+"""
+Algoritmo que calcula o crédito a partir do saldo médio 
+informado pelo usuário
+"""
+
 saldoMedio = float(input("Digite o saldo médio do cliente: "))
 if saldoMedio > 400:
   calcCredito = saldoMedio * 30 / 100

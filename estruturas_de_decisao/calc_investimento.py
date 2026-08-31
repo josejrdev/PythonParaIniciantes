@@ -1,5 +1,8 @@
+# Algoritmo de calculo de investimento de acordo com o tipo de investimento
+
 valorInvestimento = float(input("Digite o valor do investimento: "))
 tipoInvestimento = int(input("Digite o tipo de investimento: "))
+
 if tipoInvestimento == 1:
   calcInvestimento = valorInvestimento + (valorInvestimento * 3 / 100)
   nomeInvestimento = "Poupança"

@@ -1,4 +1,5 @@
 # programa que exibe o prêmio de um atleta a partir de sua posição em uma corrida
+
 posicao = int(input("Digite a posição do atleta: "))
 premio = None
 if (posicao <= 3):

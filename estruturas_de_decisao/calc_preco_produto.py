@@ -1,5 +1,12 @@
+"""
+Algoritmo que calcula o preço total de uma compra com base no código
+do produto e na quantidade comprada, aplicando um desconto conforme
+o valor total da nota e exibindo os valores da compra.
+"""
+
 codigoProduto = int(input("Digite o código do produto: "))
 qtdCompradaProduto = int(input("Digite a quantidade de produtos comprada: "))
+
 if codigoProduto >= 1 and codigoProduto <= 10:
   precoInicialProduto = 10
   precoInicialNota = precoInicialProduto * qtdCompradaProduto
