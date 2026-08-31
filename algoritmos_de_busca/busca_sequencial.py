@@ -1,3 +1,9 @@
+"""
+ Algoritmo de busca sequencial.
+ O algoritmo busca um valor em uma lista.
+
+"""
+
 def busca_sequencial(lista,valor_busca):
     for index, valor in enumerate(lista):
         if valor_busca == valor:

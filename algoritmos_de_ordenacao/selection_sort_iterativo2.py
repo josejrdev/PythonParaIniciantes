@@ -1,3 +1,7 @@
+"""
+Algoritmo de ordenação Selection Sort versão 2
+"""
+
 def selection_sort_iterativo(lista):
     n = len(lista)
     for i in range(n - 1):

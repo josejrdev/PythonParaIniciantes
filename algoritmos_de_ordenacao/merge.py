@@ -1,3 +1,7 @@
+"""
+Algoritmo de merge
+"""
+
 def merge(lista_e, lista_d):
     lista_f, index_e, index_d = [], 0, 0
     while index_e < len(lista_e) and index_d < len(lista_d):

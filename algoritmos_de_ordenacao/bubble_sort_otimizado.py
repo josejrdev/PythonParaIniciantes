@@ -1,3 +1,7 @@
+""" 
+Algoritmo de ordenação Bubble Sort otimizado
+"""
+
 def bubble_sort_otimizado(lista):
     n = len(lista)
     for i in range(n):

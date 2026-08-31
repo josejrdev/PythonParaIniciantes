@@ -1,3 +1,7 @@
+"""
+Algoritmo de ordenação Insertion Sort iterativo
+"""
+
 def insertion_sort_iterativo(lista):
     n = len(lista)
     for i in range(1, n):
