@@ -1,3 +1,11 @@
+"""
+Algoritmo que calcula a idade de uma pessoa em anos, meses, dias e
+semanas a partir do ano de nascimento e do ano atual informados pelo
+usuário. O programa utiliza funções para realizar cada conversão,
+considerando 12 meses em um ano, 30 dias em um mês e 7 dias em uma
+semana, e exibe os resultados.
+"""
+
 def idade_em_anos(a_n,a_a):
   calc_anos = a_a - a_n
   return calc_anos

@@ -1,3 +1,7 @@
+"""
+Algoritmo que cria uma calculadora simples através de funções
+"""
+
 def calculadora(n_1, n_2, operacao):
   if operacao == "+":
     return soma(n_1, n_2)

@@ -1,4 +1,7 @@
-def cla_temperatura(temp):
+"""
+Algoritmo que cria uma função para classificar temperatura
+"""
+def classificacao_temperatura(temp):
   if temp > 25:
     return "QUENTE"
   elif temp >= 10:
@@ -6,4 +9,4 @@ def cla_temperatura(temp):
   else:
     return "FRIO"
 temperatura = float(input("Digite a temmperatura em graus celsius: "))
-print(cla_temperatura(temperatura))
+print(classificacao_temperatura(temperatura))

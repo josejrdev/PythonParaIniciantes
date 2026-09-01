@@ -1,3 +1,12 @@
+"""
+Algoritmo que apresenta um menu de opções para calcular a média
+aritmética ou a média ponderada de notas. Na média aritmética, o
+programa recebe duas notas e calcula a média entre elas. Na média
+ponderada, recebe três notas e seus respectivos pesos, calcula a
+média considerando os pesos informados e exibe o resultado. O programa
+continua executando até que a opção de saída seja selecionada.
+"""
+
 lista_notas_pesos = []
 lista_notas = []
 def verificar_parada(n):

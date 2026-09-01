@@ -1,5 +1,13 @@
+"""
+Programa que solicita as idades de várias pessoas, validando para que
+não sejam informados valores negativos. A entrada do valor 0 encerra
+a coleta de idades. Ao final, calcula e exibe a média das idades
+informadas.
+"""
+
 lista_idades = []
 qtd_pessoas = 1
+
 def verificar_parada(n):
   return n == 0
 def verificar_validade(n):
@@ -17,5 +25,7 @@ while True:
     break
   lista_idades.append(idade)
   qtd_pessoas = qtd_pessoas + 1
-media_idades = media(sum(lista_idades),qtd_pessoas)
+
+media_idades = media(sum(lista_idades),len(lista_idades))
+
 print(f"A média de idade das pessoas é: {media_idades:.2f}")

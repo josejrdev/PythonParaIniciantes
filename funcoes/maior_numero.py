@@ -1,3 +1,10 @@
+"""
+Algoritmo que recebe três números inteiros informados pelo usuário e
+utiliza uma função para comparar os valores. A função identifica qual
+dos três números é o maior e retorna uma mensagem informando o maior
+valor.
+"""
+
 def maior_numero(n_1, n_2, n_3):
   if n_1 >= n_2 and n_1 >= n_3:
     return (f"{n_1} é maior.")

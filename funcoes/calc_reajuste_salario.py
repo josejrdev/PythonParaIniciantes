@@ -1,3 +1,10 @@
+"""
+Programa que calcula o reajuste salarial de um funcionário de acordo
+com o seu salário atual. Funcionários que recebem até R$ 300,00 têm
+um aumento de 35%, enquanto aqueles que recebem acima desse valor
+têm um aumento de 15%. Ao final, o programa exibe o salário após
+o reajuste.
+"""
 def reajuste_salario(salario, p_aumento_1=15, p_aumento_2=35, limite=300):
   if salario <= limite:
     return calc_salario(salario,p_aumento_2)

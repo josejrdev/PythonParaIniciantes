@@ -1,3 +1,9 @@
+"""
+Função que calcula a média aritmética de quatro notas informadas pelo usuário
+e retorna "Aprovado" caso a média seja maior ou igual a 7,
+ou "Reprovado" caso a média seja menor que 7.
+"""
+
 def media_aritmetica(nota_1,nota_2,nota_3,nota_4):
   media = (nota_1 + nota_2 + nota_3 + nota_4) / 4
   if media >= 7:

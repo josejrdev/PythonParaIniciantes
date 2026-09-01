@@ -1,3 +1,10 @@
+"""
+Algoritmo que calcula o valor de crédito concedido a um cliente com base
+no seu saldo médio. O programa utiliza diferentes taxas de crédito de
+acordo com faixas de saldo e, por meio de funções, calcula e exibe o
+valor do crédito correspondente.
+"""
+
 def liberar_credito(saldo, limite_3=400, limite_2=300, limite_1=200, taxa_1=10, taxa_2=20, taxa_3=25, taxa_4=30):
   if saldo > limite_3:
     return calc_credito(saldo,taxa_4)

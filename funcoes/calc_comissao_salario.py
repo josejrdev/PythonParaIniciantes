@@ -1,3 +1,10 @@
+"""
+Algoritmo que calcula o salário final de um funcionário com base no
+salário inicial e no valor total de suas vendas. O programa calcula
+uma comissão de 4% sobre as vendas e adiciona esse valor ao salário
+inicial para obter e exibir o salário final.
+"""
+
 def comissao(v,taxa_comissao=4):
   calc_comissao = v * taxa_comissao / 100
   return calc_comissao

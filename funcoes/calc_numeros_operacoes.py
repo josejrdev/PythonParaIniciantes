@@ -1,3 +1,11 @@
+"""
+Programa que realiza uma operação matemática entre dois números de
+acordo com um código informado pelo usuário. O código 1 calcula a
+média, o código 2 calcula a diferença entre o maior e o menor número,
+o código 3 calcula o produto e o código 4 realiza a divisão.
+Caso seja informado um código diferente de 1 a 4, o programa informa
+que o código é inválido e apresenta as opções disponíveis.
+"""
 def escolha(n_1, n_2, codigo):
   if codigo == 1:
     return media(n_1,n_2)

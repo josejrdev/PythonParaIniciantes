@@ -1,3 +1,9 @@
+"""
+Programa que solicita o nome de vários produtos e os armazena em uma
+lista. A entrada de "fim", independentemente de letras maiúsculas ou
+minúsculas, encerra o cadastro. Ao final, exibe os produtos numerados,
+os três primeiros produtos e os dois últimos produtos da lista.
+"""
 lista_produtos = []
 def verificar_parada(valor):
   return valor.lower() == "fim"
