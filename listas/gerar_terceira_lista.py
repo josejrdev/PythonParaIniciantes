@@ -1,3 +1,10 @@
+"""
+Programa que solicita valores de duas listas ao usuário e encerra a
+entrada quando o valor 0 é informado. Em seguida, combina os valores
+das duas listas em uma terceira lista, mantendo a ordem dos elementos
+da primeira lista seguida pela ordem dos elementos da segunda lista.
+Ao final, exibe a lista resultante.
+"""
 listaUm = []
 listaDois = []
 listaTres = []

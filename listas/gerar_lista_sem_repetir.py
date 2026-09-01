@@ -1,3 +1,9 @@
+"""
+Programa que solicita os itens de duas listas ao usuário e encerra
+a entrada quando o valor 0 é informado. Em seguida, cria uma terceira
+lista contendo todos os valores das duas listas, sem repetir elementos.
+Ao final, exibe a terceira lista com os valores únicos.
+"""
 listaUm = []
 listaDois = []
 listaTres = []

@@ -1,3 +1,9 @@
+"""
+Programa que divide uma lista original em três partes, inverte a
+ordem dos elementos de cada parte e, em seguida, recombina as três
+listas invertidas em uma única lista. Ao final, exibe a lista
+resultante da recombinação.
+"""
 listaOriginal = [
   "Zx9", "zy42", "*&%@@", "A_D_S@@",
   "1**P", "55%%", "P@ALMARES666", "89##",

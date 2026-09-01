@@ -1,3 +1,10 @@
+"""
+Programa que analisa os valores de vendas registrados ao longo de
+quatro trimestres. A lista de valores é dividida em quatro períodos,
+e o programa percorre cada trimestre para identificar o maior e o
+menor valor registrado. Ao final, exibe o maior e o menor valor de
+cada trimestre formatados em reais.
+"""
 listaValores = [
   12000, 24000, 6555, 8900,
   50000, 78000, 1000, 10000,

@@ -1,3 +1,11 @@
+"""
+Programa que solicita 10 nomes ao usuário e os armazena em uma lista.
+Durante a entrada, identifica o nome mais longo e conta quantos nomes
+começam com a letra "A". Ao final, cria uma nova lista contendo os
+nomes dos índices 2 a 6 e exibe o nome mais longo, esses nomes e a
+quantidade de nomes iniciados com "A".
+"""
+
 listaNomes = []
 nomeMaisLongo = ""
 qtdNomesIniciamComA = 0
